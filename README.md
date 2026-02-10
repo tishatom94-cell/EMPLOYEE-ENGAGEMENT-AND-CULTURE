@@ -1,12 +1,16 @@
 # EMPLOYEE-ENGAGEMENT-AND-CULTURE
 Employee engagement and organizational culture are critical drivers of productivity, retention, and innovation. This project leverages survey data to analyze engagement and culture metrics across departments, tenure groups, and locations, providing actionable insights for HR leadership
+
 CALCULATED COLUMNS
+
 1)Attrition = 
 IF(
     'employee survey'[STATUS]IN {"Resigned", "Terminated", "Left"}, 
     1, 
     0
 )
+
+
 2)EngagementCategory = 
 SWITCH(
     TRUE(),
