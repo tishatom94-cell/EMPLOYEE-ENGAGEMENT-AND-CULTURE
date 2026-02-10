@@ -16,12 +16,15 @@ SWITCH(
 )
 
 KPIS
+
 Engagement KPIs
+
 AvgEngagement = AVERAGE(EmployeeSurvey[EngagementScore])
 PctHighlyEngaged = DIVIDE(COUNTROWS(FILTER(EmployeeSurvey, EmployeeSurvey[EngagementScore] >= 4)), COUNTROWS(EmployeeSurvey), 0)
 AttritionRate = DIVIDE(COUNTROWS(FILTER(EmployeeData, EmployeeData[Status] = "Resigned")), COUNTROWS(EmployeeData), 0)
 
 Culture KPIs
+
 CultureIndex = AVERAGEX(EmployeeSurvey, (EmployeeSurvey[Collaboration] + EmployeeSurvey[Inclusion] + EmployeeSurvey[ValuesAlignment]) / 3)
 
 Analyses Conducted
