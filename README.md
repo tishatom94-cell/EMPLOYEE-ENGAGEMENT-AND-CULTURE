@@ -1,6 +1,9 @@
 # EMPLOYEE-ENGAGEMENT-AND-CULTURE
 Employee engagement and organizational culture are critical drivers of productivity, retention, and innovation. This project leverages survey data to analyze engagement and culture metrics across departments, tenure groups, and locations, providing actionable insights for HR leadership
 
+<img width="1911" height="1008" alt="EMPLOYEE ENGAGEMENT" src="https://github.com/user-attachments/assets/d73d64c6-1c20-4a2c-ad9a-972c11a56426" />
+
+
 CALCULATED COLUMNS
 
 1)Attrition = 
